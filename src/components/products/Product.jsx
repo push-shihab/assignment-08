@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { IoStar } from "react-icons/io5";
 
@@ -22,9 +23,12 @@ const Product = ({ data }) => {
         </p>
         <p className="text-[#2563eb] font-bold text-xl">${data.price}</p>
         <div className="card-actions justify-end">
-          <button className="btn text-white w-full rounded-xl bg-[#2563eb]">
+          <Link
+            href={`/products/${data.id}`}
+            className="btn text-white w-full rounded-xl bg-[#2563eb]"
+          >
             View Details
-          </button>
+          </Link>
         </div>
       </div>
     </div>
