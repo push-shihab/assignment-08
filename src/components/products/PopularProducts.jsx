@@ -1,4 +1,7 @@
+import { IoIosArrowRoundForward } from "react-icons/io";
 import Product from "./Product";
+import { FaLongArrowAltRight } from "react-icons/fa";
+import Link from "next/link";
 
 const PopularProducts = async () => {
   const productsData = await fetch("http://localhost:3000/products.json");
@@ -11,10 +14,18 @@ const PopularProducts = async () => {
           <h2 className="text-2xl font-bold">Popular Products</h2>
           <p className="text-gray-400">Trending picks for this summer</p>
         </div>
-        <div className="grid grid-cols-3 gap-4 place-items-center pb-15">
+        <div className="grid grid-cols-3 gap-4 place-items-center pb-8">
           {topRatedProducts.map((data) => (
             <Product key={data.id} data={data}></Product>
           ))}
+        </div>
+        <div className="text-center pb-8">
+          <Link
+            href="/products"
+            className="btn text-white border-none shadow-none bg-[#2563eb]"
+          >
+            More Products
+          </Link>
         </div>
       </div>
     </main>
