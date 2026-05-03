@@ -1,6 +1,4 @@
-import { IoIosArrowRoundForward } from "react-icons/io";
 import Product from "./Product";
-import { FaLongArrowAltRight } from "react-icons/fa";
 import Link from "next/link";
 
 const PopularProducts = async () => {
