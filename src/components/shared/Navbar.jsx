@@ -1,9 +1,12 @@
 "use client";
+import { authClient } from "@/app/lib/auth.client";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
 
 const Navbar = () => {
+  const session = authClient.useSession();
   const currentPath = usePathname();
   const links = (
     <>
@@ -70,13 +73,41 @@ const Navbar = () => {
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">{links}</ul>
           </div>
-          <div className="navbar-end gap-2">
-            <a className="btn btn-outline border-[#38bdf8] text-[#38bdf8]">
-              Login
-            </a>
-            <a className="btn text-white border-none shadow-none bg-[#2563eb]">
-              Register
-            </a>
+          <div className="navbar-end gap-3">
+            {session.data ? (
+              <>
+                <div>
+                  <Image
+                    src={session.data.user.image}
+                    alt={session.data.user.name}
+                    width={40}
+                    height={40}
+                    className="rounded-full"
+                  ></Image>
+                </div>
+                <button
+                  onClick={() => authClient.signOut()}
+                  className="btn btn-outline border-[#38bdf8] text-[#38bdf8]"
+                >
+                  Logout
+                </button>
+              </>
+            ) : (
+              <>
+                <Link
+                  href={"/login"}
+                  className="btn btn-outline border-[#38bdf8] text-[#38bdf8]"
+                >
+                  Login
+                </Link>
+                <Link
+                  href={"/register"}
+                  className="btn text-white border-none shadow-none bg-[#2563eb]"
+                >
+                  Register
+                </Link>
+              </>
+            )}
           </div>
         </div>
       </div>
