@@ -22,7 +22,7 @@ const Banner = () => {
           className="w-full h-100 relative"
         >
           <div className="flex justify-center absolute top-10 right-170">
-            <span className="bg-[#38bdf8] px-3 py-1.5 text-[12px] font-bold rounded-full shadow-lg shadow-[#38bdf8]">
+            <span className="bg-[#38bdf8] px-3 py-1.5 text-[12px] font-bold rounded-full shadow-[0_0_25px_#3B82F6]">
               Summer 2026 Collection
             </span>
           </div>

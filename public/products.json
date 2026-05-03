@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "UV Protection Sunglasses",
+    "brand": "SunShade",
+    "price": 15,
+    "rating": 4.7,
+    "stock": 10,
+    "description": "Stylish UV protection sunglasses perfect for summer outings.",
+    "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400",
+    "category": "Accessories"
+  },
+  {
+    "id": 2,
+    "name": "Waterproof Beach Sandals",
+    "brand": "CoastalStep",
+    "price": 28,
+    "rating": 4.5,
+    "stock": 35,
+    "description": "Lightweight, waterproof sandals designed for beach and poolside wear with anti-slip soles.",
+    "image": "https://images.unsplash.com/photo-1603487742131-4160ec999306?w=400",
+    "category": "Footwear"
+  },
+  {
+    "id": 3,
+    "name": "SPF 50 Sunscreen Lotion",
+    "brand": "SolarGuard",
+    "price": 12,
+    "rating": 4.8,
+    "stock": 60,
+    "description": "Broad-spectrum SPF 50 sunscreen that protects against UVA and UVB rays, water-resistant for 80 minutes.",
+    "image": "https://images.unsplash.com/photo-1738721796993-5f42d9315689?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Skincare"
+  },
+  {
+    "id": 4,
+    "name": "Inflatable Pool Float",
+    "brand": "AquaFun",
+    "price": 22,
+    "rating": 4.3,
+    "stock": 20,
+    "description": "Giant flamingo-shaped inflatable pool float, perfect for lounging in the pool or lake.",
+    "image": "https://images.unsplash.com/photo-1530870110042-98b2cb110834?w=400",
+    "category": "Pool & Beach"
+  },
+  {
+    "id": 5,
+    "name": "Portable Cooling Towel",
+    "brand": "ChillWrap",
+    "price": 9,
+    "rating": 4.6,
+    "stock": 80,
+    "description": "Instant cooling towel made from hyper-evaporative material, stays cool for hours. Ideal for workouts and outdoor activities.",
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400",
+    "category": "Sports & Outdoors"
+  },
+  {
+    "id": 6,
+    "name": "Stainless Steel Water Bottle",
+    "brand": "HydroKeep",
+    "price": 19,
+    "rating": 4.9,
+    "stock": 45,
+    "description": "Double-wall insulated 32oz water bottle that keeps drinks cold for 24 hours. BPA-free and leak-proof.",
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=400",
+    "category": "Drinkware"
+  },
+  {
+    "id": 7,
+    "name": "Wide Brim Sun Hat",
+    "brand": "TropicTops",
+    "price": 17,
+    "rating": 4.4,
+    "stock": 25,
+    "description": "Foldable wide-brim straw hat with UPF 50+ protection. Stylish and packable for travel.",
+    "image": "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=400",
+    "category": "Accessories"
+  },
+  {
+    "id": 8,
+    "name": "Lightweight Linen Shirt",
+    "brand": "BreezWear",
+    "price": 34,
+    "rating": 4.6,
+    "stock": 18,
+    "description": "100% breathable linen short-sleeve shirt, available in multiple pastel colors. Perfect for hot summer days.",
+    "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=400",
+    "category": "Clothing"
+  }
+]
