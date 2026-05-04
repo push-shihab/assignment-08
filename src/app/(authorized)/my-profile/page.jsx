@@ -36,7 +36,7 @@ const MyProfie = async () => {
             <div className="divider divider-start px-5"></div>
             <div className="w-full px-5">
               <Link
-                href={"/register"}
+                href={"/update-profile"}
                 className="btn text-white w-full rounded-xl bg-[#2563eb]"
               >
                 Update Profile
