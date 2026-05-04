@@ -1,4 +1,3 @@
-import { authClient } from "@/app/lib/auth.client";
 import Product from "./Product";
 import Link from "next/link";
 
