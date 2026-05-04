@@ -82,7 +82,7 @@ const Navbar = () => {
                     alt={session.data.user.name}
                     width={40}
                     height={40}
-                    className="rounded-full"
+                    className="rounded-full border-2 border-[#38bcf6]"
                   ></Image>
                 </div>
                 <button
