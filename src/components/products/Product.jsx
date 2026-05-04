@@ -12,6 +12,7 @@ const Product = ({ data }) => {
           alt={data.name}
           width={300}
           height={300}
+          loading="eager"
           className="w-full h-75 object-cover rounded-t-2xl hover:scale-120 transition ease-in-out duration-700"
         ></Image>
       </div>

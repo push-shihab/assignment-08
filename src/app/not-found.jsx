@@ -8,7 +8,7 @@ export default function NotFound() {
           404
         </h1>
 
-        <div className="w-12 h-[3px] bg-[#38BDF8] rounded-full my-4" />
+        <div className="w-12 h-0.75 bg-[#38BDF8] rounded-full my-4" />
 
         <h2 className="text-xl font-semibold text-[#0F172A] mb-3">
           Page Not Found

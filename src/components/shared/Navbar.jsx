@@ -27,7 +27,7 @@ const Navbar = () => {
         </Link>
       </li>
       <li>
-        <Link href={"/"}>My Profile</Link>
+        <Link href={"/my-profile"}>My Profile</Link>
       </li>
     </>
   );
@@ -65,10 +65,10 @@ const Navbar = () => {
                 {links}
               </ul>
             </div>
-            <a className="font-extrabold text-4xl cursor-pointer">
+            <Link href={"/"} className="font-extrabold text-4xl cursor-pointer">
               <span className="text-[#38bdf8]">Sun</span>
               <span className="text-white">Cart</span>
-            </a>
+            </Link>
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">{links}</ul>

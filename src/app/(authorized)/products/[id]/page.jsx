@@ -1,10 +1,9 @@
 import Image from "next/image";
-import React from "react";
 import { IoStar } from "react-icons/io5";
 
 const ProductsDetails = async ({ params }) => {
   const { id } = await params;
-  const fetchProducts = await fetch("http://localhost:3000/products.json");
+  const fetchProducts = await fetch("http://localhost:3000/productsData.json");
   const res = await fetchProducts.json();
   const specificProduct = res.find((product) => product.id === Number(id));
   const { category, name, rating, price, description, brand, stock, image } =

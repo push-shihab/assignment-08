@@ -17,6 +17,7 @@ const TopBrands = () => {
                 alt="Cosrx"
                 width={100}
                 height={100}
+                className="w-auto h-auto"
               ></Image>
             </div>
             <h2 className="font-bold text-xl">Cosrx</h2>
@@ -29,6 +30,7 @@ const TopBrands = () => {
                 alt="Neutrogena"
                 width={100}
                 height={100}
+                className="w-auto h-auto"
               ></Image>
             </div>
             <h2 className="font-bold text-2xl">Neutrogena</h2>
@@ -41,6 +43,7 @@ const TopBrands = () => {
                 alt="Cetaphil"
                 width={100}
                 height={100}
+                className="w-auto h-auto"
               ></Image>
             </div>
             <h2 className="font-bold text-2xl">Cetaphil</h2>
@@ -53,6 +56,7 @@ const TopBrands = () => {
                 alt="Innisfree"
                 width={100}
                 height={100}
+                className="w-auto h-auto"
               ></Image>
             </div>
             <h2 className="font-bold text-2xl">Innisfree</h2>

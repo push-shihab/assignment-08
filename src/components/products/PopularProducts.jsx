@@ -1,8 +1,9 @@
+import { authClient } from "@/app/lib/auth.client";
 import Product from "./Product";
 import Link from "next/link";
 
 const PopularProducts = async () => {
-  const productsData = await fetch("http://localhost:3000/products.json");
+  const productsData = await fetch("http://localhost:3000/productsData.json");
   const res = await productsData.json();
   const topRatedProducts = res.filter((product) => product.rating > 4.6);
   return (
@@ -19,7 +20,7 @@ const PopularProducts = async () => {
         </div>
         <div className="text-center pb-8">
           <Link
-            href="/products"
+            href={"/products"}
             className="btn text-white border-none shadow-none bg-[#2563eb]"
           >
             More Products

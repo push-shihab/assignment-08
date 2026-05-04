@@ -4,6 +4,11 @@ import { useForm } from "react-hook-form";
 import { toast } from "react-toastify";
 
 const LoginPage = () => {
+  const handleLoginWithGoogle = async () => {
+    const data = await authClient.signIn.social({
+      provider: "google",
+    });
+  };
   const {
     register,
     handleSubmit,
@@ -73,7 +78,10 @@ const LoginPage = () => {
           <button className="btn btn-neutral mt-4" type="submit">
             Login
           </button>
-          <button className="btn btn-ghost mt-1" type="submit">
+          <button
+            className="btn btn-ghost mt-1"
+            onClick={handleLoginWithGoogle}
+          >
             Login With Google
           </button>
         </form>
