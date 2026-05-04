@@ -1,6 +1,6 @@
 import Product from "@/components/products/Product";
 import React from "react";
-import productsData from "@/public/productsData.json";
+import productsData from "../../../../public/productsData.json";
 
 const AllProducts = async () => {
   return (

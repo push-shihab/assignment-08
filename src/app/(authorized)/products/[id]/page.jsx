@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { IoStar } from "react-icons/io5";
-import productsData from "@/public/productsData.json";
+import productsData from "../../../../../public/productsData.json";
 
 const ProductsDetails = async ({ params }) => {
   const { id } = await params;
