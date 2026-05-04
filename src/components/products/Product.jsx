@@ -24,8 +24,8 @@ const Product = ({ data }) => {
   return (
     <animated.div
       style={{
-        width: 450,
-        height: 450,
+        width: 400,
+        height: 420,
         ...springs,
         config: {
           tension: 100,

@@ -36,7 +36,7 @@ const Navbar = () => {
       <div className="container mx-auto">
         <div className="navbar text-white">
           <div className="navbar-start">
-            <div className="dropdown">
+            <div className="dropdown z-40">
               <div
                 tabIndex={0}
                 role="button"

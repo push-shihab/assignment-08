@@ -8,8 +8,8 @@ import {
 const Footer = () => {
   return (
     <main className="bg-[#0f172a]">
-      <div className="container mx-auto">
-        <div className="grid grid-cols-3 py-10 gap-15 place-items-center border-b border-gray-700">
+      <div className="container mx-auto px-3">
+        <div className="grid md:grid-cols-3 py-10 gap-15 md:place-items-center border-b border-gray-700">
           <div className="space-y-3">
             <a className="font-extrabold text-3xl cursor-pointer">
               <span className="text-[#38bdf8]">Sun</span>
@@ -57,7 +57,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="flex justify-between items-center py-4">
+        <div className="flex flex-wrap justify-between items-center py-4">
           <span className="text-gray-600">
             © 2025 SunCart. All rights reserved.{" "}
           </span>

@@ -12,7 +12,7 @@ const PopularProducts = async () => {
           <h2 className="text-2xl font-bold">Popular Products</h2>
           <p className="text-gray-400">Trending picks for this summer</p>
         </div>
-        <div className="grid grid-cols-3 gap-4 place-items-center pb-8">
+        <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-4 place-items-center pb-8">
           {topRatedProducts.map((data) => (
             <Product key={data.id} data={data}></Product>
           ))}

@@ -9,7 +9,7 @@ const TopBrands = () => {
           <h2 className="text-2xl font-bold">Top Brands</h2>
           <p className="text-gray-400">Premium summer brands we carry</p>
         </div>
-        <div className="grid grid-cols-4 gap-5 place-items-center pb-15">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-5 place-items-center pb-15  px-3">
           <div className="border border-gray-300 rounded-2xl flex flex-col items-center px-17 w-full py-10 space-y-3 h-full justify-center">
             <div className="bg-[#eff6ff] px-5 rounded-2xl">
               <Image

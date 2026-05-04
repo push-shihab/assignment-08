@@ -23,7 +23,7 @@ const MyProfie = async () => {
             <p className="text-[#38bcf6]">{session.user.email}</p>
           </div>
           <div className="rounded-b-2xl flex flex-col items-center py-5">
-            <div className="px-5 w-150 space-y-2">
+            <div className="px-5 md:w-150 sm:w-125 w-100 space-y-2">
               <div className="border flex justify-between rounded-xl bg-base-300 w-full px-2 py-1">
                 <span className="text-gray-500">Full Name</span>
                 <span className="font-bold">{session.user.name}</span>

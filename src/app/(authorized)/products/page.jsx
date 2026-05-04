@@ -10,7 +10,7 @@ const AllProducts = async () => {
         <div className="text-center py-10 space-y-3">
           <h2 className="text-2xl font-bold">All Products</h2>
         </div>
-        <div className="grid grid-cols-3 gap-4 place-items-center pb-8">
+        <div className="grid xl:grid-cols-3 lg:grid-cols-2 gap-4 place-items-center pb-8">
           {res.map((data) => (
             <Product key={data.id} data={data}></Product>
           ))}

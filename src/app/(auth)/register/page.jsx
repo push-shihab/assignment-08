@@ -1,5 +1,6 @@
 "use client";
 import { authClient } from "@/app/lib/auth.client";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useForm } from "react-hook-form";
 import { toast } from "react-toastify";
@@ -115,9 +116,15 @@ const RegisterPage = () => {
           <button className="btn btn-neutral mt-4" type="submit">
             Register
           </button>
-          <button className="btn btn-ghost mt-1" type="submit">
-            Register With Google
-          </button>
+          <p className="text-sm text-center pt-2">
+            Already have an account?{" "}
+            <Link
+              className="text-red-500 underline hover:no-underline"
+              href={"/login"}
+            >
+              Login
+            </Link>
+          </p>
         </form>
       </div>
     </main>

@@ -12,7 +12,7 @@ const SummerTips = () => {
             Stay fresh, protected, and healthy this season
           </p>
         </div>
-        <div className="grid grid-cols-3 gap-5 place-items-center pb-15">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-5 place-items-center pb-15  px-3">
           <div className="border border-gray-300 rounded-2xl flex flex-col items-center px-17 py-10 space-y-3">
             <GiGlassShot size={80} className="text-blue-400" />
             <h2 className="font-bold text-2xl">Stay Hydrated</h2>

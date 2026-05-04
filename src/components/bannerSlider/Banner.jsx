@@ -19,9 +19,9 @@ const Banner = () => {
           }}
           loop={true}
           speed="1200"
-          className="w-full h-100 relative"
+          className="w-full md:h-100 h-150 relative"
         >
-          <div className="flex justify-center absolute top-10 right-170">
+          <div className="flex justify-center absolute top-10 right-1/2">
             <span className="bg-[#38bdf8] px-3 py-1.5 text-[12px] font-bold rounded-full shadow-[0_0_25px_#3B82F6]">
               Summer 2026 Collection
             </span>
@@ -29,8 +29,8 @@ const Banner = () => {
           <SwiperSlide>
             <div className="h-full flex items-center justify-center text-white font-bold">
               <div className="hero min-h-screen">
-                <div className="hero-content flex-col lg:flex-row-reverse justify-between gap-45">
-                  <div className="flex flex-col gap-5">
+                <div className="hero-content md:flex flex-col-reverse md:flex-row-reverse justify-between md:gap-45">
+                  <div className="flex md:flex-col gap-5 w-full md:w-auto justify-between">
                     <span className="bg-[#1f2638] font-bold flex flex-col items-center px-8 py-4 rounded-2xl shadow-sm shadow-[#38bdf8]">
                       <span className="text-2xl text-[#38bdf8]">50% OFF</span>
                       <span className="text-gray-400">Summer Sale</span>
@@ -68,8 +68,8 @@ const Banner = () => {
           <SwiperSlide>
             <div className="h-full flex items-center justify-center text-white font-bold">
               <div className="hero min-h-screen">
-                <div className="hero-content flex-col lg:flex-row-reverse justify-between gap-45">
-                  <div className="flex flex-col gap-5">
+                <div className="hero-content md:flex flex-col-reverse md:flex-row-reverse justify-between md:gap-45">
+                  <div className="flex md:flex-col gap-5 w-full md:w-auto justify-between">
                     <span className="bg-[#1f2638] font-bold flex flex-col items-center px-8 py-4 rounded-2xl shadow-sm shadow-[#38bdf8]">
                       <span className="text-2xl text-[#38bdf8]">50% OFF</span>
                       <span className="text-gray-400">Summer Sale</span>
@@ -108,8 +108,8 @@ const Banner = () => {
           <SwiperSlide>
             <div className="h-full flex items-center justify-center text-white font-bold">
               <div className="hero min-h-screen">
-                <div className="hero-content flex-col lg:flex-row-reverse justify-between gap-45">
-                  <div className="flex flex-col gap-5">
+                <div className="hero-content md:flex flex-col-reverse md:flex-row-reverse justify-between md:gap-45">
+                  <div className="flex md:flex-col gap-5 w-full md:w-auto justify-between">
                     <span className="bg-[#1f2638] font-bold flex flex-col items-center px-8 py-4 rounded-2xl shadow-sm shadow-[#38bdf8]">
                       <span className="text-2xl text-[#38bdf8]">50% OFF</span>
                       <span className="text-gray-400">Summer Sale</span>
