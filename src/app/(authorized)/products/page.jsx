@@ -1,6 +1,6 @@
 import Product from "@/components/products/Product";
 import React from "react";
-
+export const dynamic = "force-dynamic";
 const AllProducts = async () => {
   const productsData = await fetch("http://localhost:3000/productsData.json");
   const res = await productsData.json();
