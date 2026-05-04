@@ -1,10 +1,11 @@
 import Product from "./Product";
 import Link from "next/link";
+import productsData from "../../../public/productsData.json";
 
 const PopularProducts = async () => {
-  const productsData = await fetch("http://localhost:3000/productsData.json");
-  const res = await productsData.json();
-  const topRatedProducts = res.filter((product) => product.rating > 4.6);
+  const topRatedProducts = productsData.filter(
+    (product) => product.rating > 4.6,
+  );
   return (
     <main className="bg-[#eff6ff]">
       <div className="container mx-auto">
