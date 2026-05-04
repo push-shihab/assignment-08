@@ -1,9 +1,10 @@
 import Image from "next/image";
 import { IoStar } from "react-icons/io5";
-export const dynamic = "force-dynamic";
 const ProductsDetails = async ({ params }) => {
   const { id } = await params;
-  const fetchProducts = await fetch("http://localhost:3000/productsData.json");
+  const fetchProducts = await fetch("http://localhost:3000/productsData.json", {
+    cache: "no-cache",
+  });
   const res = await fetchProducts.json();
   const specificProduct = res.find((product) => product.id === Number(id));
   const { category, name, rating, price, description, brand, stock, image } =
