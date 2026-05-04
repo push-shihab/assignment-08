@@ -2,7 +2,9 @@ import Product from "@/components/products/Product";
 import React from "react";
 
 const AllProducts = async () => {
-  const productsData = await fetch("http://localhost:3000/productsData.json");
+  const productsData = await fetch(
+    `${process.env.BETTER_AUTH_URL}/productsData.json`,
+  );
   const res = await productsData.json();
   return (
     <main className="bg-[#eff6ff]">
